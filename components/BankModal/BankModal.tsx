@@ -79,7 +79,7 @@ export const BankModal = ({ isOpen, handleClose, title, children }: any) => {
             {title}
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Total Treasury Value : $ {tvl} DAI
+            Total Vault Value : $ {tvl} $STARDUST
           </Typography>
         </Box>
       </Modal>

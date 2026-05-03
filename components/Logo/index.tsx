@@ -8,7 +8,7 @@ export default function Logo() {
     return (
         <div className={styles.logoRoot}>
             <Link href="/" target="_blank">
-                <Image  alt="Fedora Hat by iconixar from NounProject.com" src={NostraIcon} width="200" height="150" />
+                <Image  alt="Stardust City Logo" src="/assets/images/logo.png" width="200" height="150" />
             </Link>
         </div>
     );

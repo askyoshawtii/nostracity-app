@@ -73,6 +73,9 @@ export default function Sidebar() {
     <NoSsr>
       <div className={classes.root}>        
       <Drawer  variant="permanent" anchor="left">
+        <div style={{ padding: "10px", textAlign: "center" }}>
+          <img src="/assets/images/nova_badge.svg" alt="Nova Syndicate Badge" style={{ width: "60px", marginBottom: "5px", filter: "drop-shadow(0 0 10px #00FFFF)" }} />
+        </div>
         <Logo />
         <List>
         <ListItem disablePadding>
@@ -96,10 +99,10 @@ export default function Sidebar() {
           <ListItem disablePadding>
             <ListItemButton
               component="a"
-              href="https://traderjoexyz.com/trade?inputCurrency=AVAX&outputCurrency=0xd586e7f844cea2f87f50152665bcbc2c279d8d70"
+              href="#"
               target="_blank"
             >
-              <ListItemText primary="Buy DAI.e" />
+              <ListItemText primary="Buy $STARDUST" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
@@ -120,10 +123,10 @@ export default function Sidebar() {
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem component="a" href="https://twitter.com/Nostra_City" target="_blank" onClick={handleClose}>Twitter</MenuItem>
-        <MenuItem component="a" href="http://discord.gg/rFSxg4BUGb" target="_blank" onClick={handleClose}>Discord</MenuItem>
-        <MenuItem component="a" href="https://t.me/NostraCity" target="_blank" onClick={handleClose}>Telegram</MenuItem>
-        <MenuItem component="a" href="https://medium.com/@nostracity" target="_blank" onClick={handleClose}>Medium</MenuItem>
+        <MenuItem component="a" href="#" target="_blank" onClick={handleClose}>Twitter</MenuItem>
+        <MenuItem component="a" href="#" target="_blank" onClick={handleClose}>Discord</MenuItem>
+        <MenuItem component="a" href="#" target="_blank" onClick={handleClose}>Telegram</MenuItem>
+        <MenuItem component="a" href="#" target="_blank" onClick={handleClose}>Medium</MenuItem>
 
       </Menu>
     </NoSsr>

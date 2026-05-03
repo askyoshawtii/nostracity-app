@@ -8,8 +8,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>NostraCity</title>
-        <meta name="description" content="NostraCity. A DeFi Mafia Game built with NFTS and Nodes" />
+        <title>Stardust City</title>
+        <meta name="description" content="Stardust City. A Galactic Economic Builder built with tokens and nodes." />
         <link rel="icon" href="/assets/icons/fedora.png" />
       </Head>
       <Main />

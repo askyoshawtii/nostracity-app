@@ -743,31 +743,27 @@ export default function MapPins() {
     }
   }
 
-  function handleNftPriceQuantity(item) {
-    switch (item) {
       case "barber": {
-        return mintPriceBarber * barberQuantity + " DAI.e";
+        return mintPriceBarber * barberQuantity + " $STARDUST";
       }
       case "grocery": {
-        return mintPriceGrocery * groceryQuantity + " DAI.e";
+        return mintPriceGrocery * groceryQuantity + " $STARDUST";
       }
       case "diner": {
-        return mintPriceDiner * dinerQuantity + " DAI.e";
+        return mintPriceDiner * dinerQuantity + " $STARDUST";
       }
-    }
-  }
 
   const barberText =
-    "Hector Barbershop - Managed by the Colombo Family. Click to buy scissors.";
+    "Nova Station - Managed by the Nova Syndicate. Click to buy plasma cutters.";
   const groceryText =
-    "Rome Grocery Store - Managed by the Gambino Family. Click to buy tomatoes.";
+    "Bio-Dome Alpha - Managed by the Stardust Cartel. Click to buy cosmic seeds.";
   const dinerText =
-    "Olympus Diner - Managed by the Genovese Family. Click to buy coffees.";
+    "Quantum Hub - Managed by the Nebula Order. Click to buy quantum cells.";
 
-  const bankText = "Bank. Check our valuable assets";
+  const bankText = "Vault. Check our galactic assets";
 
   const rankText =
-    "Check the competition and which family is on the top at the moment";
+    "Check the leaderboard and which faction is dominant at the moment";
   return (
     <>
       <AlertModal isOpen={isOpenAlert} handleClose={() => handleAlertClose()}>
@@ -776,20 +772,19 @@ export default function MapPins() {
       <CustomModal
         isOpen={isOpenBarber}
         handleClose={() => handleClose("barber")}
-        title="Barbershop"
-        subtitle="Colombo Family"
+        title="Nova Station"
+        subtitle="Nova Syndicate"
         handleMint={() => Mint("Barber")}
         buttonText={btnTextBarber}
         isDisabled={true}
-        nftName="Barber"
+        nftName="Refiner"
         background={barberImg.src}
       >
         <p style={{ maxWidth: "70%", textAlign: "center", margin: "auto" }}>
-          Welcome, my good fella, to the Hector Barbershop. In order to become a
-          made-man in the Colombo family - click on “Approve” button below, and
-          then “Mint”, in order to get your scissors. Those scissors will come
-          in handy later, so keep ‘em safe and join the Colombo Family on
-          discord for more.
+          Welcome, traveler, to the Nova Station. To become a certified refiner 
+          in the Nova Syndicate - click on the “Approve” button below, then 
+          “Mint” to receive your plasma cutters. These tools are vital for 
+          processing Stardust, so keep them charged and join our faction on Discord.
         </p>
         <span style={{ display: "block" }}>
           <Input

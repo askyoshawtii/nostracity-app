@@ -1,5 +1,5 @@
 {
-  "name": "nostracity-app",
+  "name": "stardust-city",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -30,10 +30,9 @@
     "i18next-react": "^0.2.2",
     "magic-sdk": "^8.0.1",
     "mapbox-gl": "^2.7.1",
-    "next": "12.1.0",
-    "proptypes": "^1.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-i18next": "^11.15.5",
     "react-img-mapper-extended": "^1.0.0",
     "remixicon-react": "^1.0.0",
